@@ -1,0 +1,41 @@
+.slider{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 0vh;
+    position: absolute;
+    width: 100%;
+    top: 78%;
+}
+
+.card{
+    width: 300px;
+    height: 160px;
+    background-color: red;
+    font-size: 30px;
+    padding: 0;
+}
+
+.card_image{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* .lgksPe{
+    height: 0px;
+    width: 0px;
+}
+
+.iLquPE:disabled{
+    height: 0px;
+    width: 0px;
+} */
+
+.sc-gKsewC{
+    visibility: hidden;
+}
+
+.button3{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
