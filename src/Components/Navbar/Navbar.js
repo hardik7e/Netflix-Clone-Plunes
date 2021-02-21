@@ -13,10 +13,10 @@ function Navbar() {
             <span>Movies</span>
             <span>Latest</span>
             <span>My List</span>
-            <span>Kids</span>
-            <span><SearchIcon/></span>
-            <span><NotificationsIcon/></span>
-            <span><StorefrontIcon/></span>
+            <span>KIDS</span>
+            <span className='icons'><SearchIcon/></span>
+            <span className='icons'><NotificationsIcon/></span>
+            <span className='icons'><StorefrontIcon/></span>
         </div>
     )
 }

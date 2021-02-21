@@ -79,7 +79,7 @@ function Slider() {
     }
 
     return (
-        <div className="slidder">
+        <div className="slider">
             <Carousel breakPoints={breackPoints}>
                 {movies.map((movie,i)=>(
                     <span key={i}>

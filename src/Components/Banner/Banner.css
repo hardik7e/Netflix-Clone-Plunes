@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -57,10 +57,10 @@
     left:15.5vw;
 }
 
-/* .button_container>button:focus{
+.button_container>button:focus{
     outline: none;
     transform: scale(1.05);
-} */
+}
 
 .button_container>button:hover{
     outline: none;
@@ -77,4 +77,68 @@
 .intro{
     color: white;
     font-size: 10px;
+}
+
+/* responsiveness */
+@media (max-width: 479px) {
+    .banner_image{
+        width: 100%;
+        height: 40vh;
+        mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+        margin-top: 0px;
+    }
+
+    .banner>h3{
+        color: white;
+        position: absolute;
+        left: 5vw;
+        top: 32vh;
+        font-size: 3vh;
+        font-weight: 500;
+    }
+    
+    .banner>h3>small{
+        font-weight: lighter;
+    }
+    
+    .banner>h1{
+        color: white;
+        position: absolute;
+        left: 4vw;
+        top: 33vh;
+        font-size: 10vh;
+        font-weight: 700;
+    }
+
+    .intro_container{
+        position: absolute;
+        left: 5vw;
+        top: 58vh;
+        width: 80%;
+    }
+    
+    .button_container{
+        width: 100%;
+    }
+    
+    .button_container>button{
+        background-color: rgba(255,255,255,0.109);
+        color: white;
+        border: 0;
+        position: absolute;
+        top: 52vh;
+        min-width: 14vw;
+        max-width: 20vw;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        transition: 0.2s;
+        font-size: 10px;
+    }
+    .button_container>.button1{
+        left:5vw;
+    }
+    
+    .button_container>.button2{
+        left:20vw;
+    }
 }

@@ -6,7 +6,7 @@ function Details({title,image}) {
         <div className="details">
             <div className="details_background">
                 <div className="details_background_shadow"></div>
-                <img className="details_background_image" src={image} />
+                <img className="details_background_image" src={image} alt="" srcSet=""/>
             </div>
 
             <div className="details_area">
